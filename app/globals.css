@@ -1,29 +1,31 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --accent: #000000;
-  --accent-foreground: #000000;
-  --muted: #ffffff;
-  --muted-foreground: #000000;
-  --primary: #2b7ffb;
-  --primary-foreground: #dddddd;
-  --secondary: #aaaaaa;
-  --secondary-foreground: #aaaaaa;
+  --primary: hsl(232 60 51);
+  --secondary: hsl(27 84 50);
+  --background: hsl(232 69 97);
+  --foreground: hsl(231 68 20);
+  --muted: hsla(0 0 70 0.88);
+  --muted-text: hsl(0 0 43);
+  --muted-foreground: hsla(0 0 20 0.86);
+  --surface-1: hsl(232 69 94);
+  --surface-2: hsl(232 69 91);
+  --surface-3: hsl(232 69 88);
+  --surface-4: hsl(232 69 85);
 }
 
 .dark {
-  --background: #ffffff;
-  --foreground: #171717;
-  --accent: #000000;
-  --accent-foreground: #000000;
-  --muted: #ffffff;
-  --muted-foreground: #000000;
-  --primary: #dddddd;
-  --primary-foreground: #dddddd;
-  --secondary: #aaaaaa;
-  --secondary-foreground: #aaaaaa;
+  --primary: hsl(232 60 51);
+  --secondary: hsl(27 84 50);
+  --background: hsl(232 69 97);
+  --foreground: hsl(231 68 20);
+  --muted: hsla(0 0 70 0.88);
+  --muted-text: hsl(0 0 43);
+  --muted-foreground: hsla(0 0 20 0.86);
+  --surface-1: hsl(232 69 94);
+  --surface-2: hsl(232 69 91);
+  --surface-3: hsl(232 69 88);
+  --surface-4: hsl(232 69 85);
 }
 
 @theme inline {
@@ -38,4 +40,3 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
-

@@ -3,29 +3,31 @@
 :root {
   --primary: hsl(232 60 51);
   --secondary: hsl(27 84 50);
-  --background: hsl(232 69 97);
+  --background: hsl(232 34 97);
   --foreground: hsl(231 68 20);
-  --muted: hsla(0 0 70 0.88);
-  --muted-text: hsl(0 0 43);
-  --muted-foreground: hsla(0 0 20 0.86);
-  --surface-1: hsl(232 69 94);
-  --surface-2: hsl(232 69 91);
-  --surface-3: hsl(232 69 88);
-  --surface-4: hsl(232 69 85);
+  --muted: hsla(0 0 80 0.88);
+  --muted-text: hsl(0 0 50);
+  --muted-foreground: hsl(0 0 31);
+  --muted-foreground-text: hsl(0 0 74);
+  --surface-1: hsl(232 34 94);
+  --surface-2: hsl(232 34 91);
+  --surface-3: hsl(232 34 88);
+  --surface-4: hsl(232 34 85);
 }
 
 .dark {
-  --primary: hsl(232 60 51);
+  --primary: hsl(232 100 71);
   --secondary: hsl(27 84 50);
-  --background: hsl(232 69 97);
-  --foreground: hsl(231 68 20);
-  --muted: hsla(0 0 70 0.88);
-  --muted-text: hsl(0 0 43);
-  --muted-foreground: hsla(0 0 20 0.86);
-  --surface-1: hsl(232 69 94);
-  --surface-2: hsl(232 69 91);
-  --surface-3: hsl(232 69 88);
-  --surface-4: hsl(232 69 85);
+  --background: hsl(235 33 10);
+  --foreground: hsl(231 69 80);
+  --muted: hsl(0 0 31);
+  --muted-text: hsl(0 0 74);
+  --muted-foreground: hsla(0 0 80 0.88);
+  --muted-foreground-text: hsl(0 0 50);
+  --surface-1: hsl(233 34 15);
+  --surface-2: hsl(233 34 20);
+  --surface-3: hsl(233 34 25);
+  --surface-4: hsl(233 34 30);
 }
 
 @theme inline {

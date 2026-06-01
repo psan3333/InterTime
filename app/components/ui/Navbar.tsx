@@ -1,12 +1,13 @@
 // logic: on mobile screen it must have burger button to show sidebar with navigation buttons
 "use client";
-import { useState, useCallback, useEffect } from "react";
+import { useState, useCallback } from "react";
 
 import SideBar from "./Sidebar";
 import MenuBurgerButton from "./input/BurgerButton";
 import clsx from "clsx";
 import Link from "next/link";
 import Logo from "../icons/Logo";
+import ThemeSwitch from "./input/ThemeSwitch";
 
 const tabs = [
   {
@@ -25,7 +26,7 @@ function Navbar() {
   );
 
   return (
-    <div className="flex flex-row-reverse md:flex-row justify-between items-center px-10 w-full h-16">
+    <div className="flex flex-row-reverse md:flex-row justify-between items-center px-10 w-full h-16 bg-surface-1 border-b-2 border-surface-4">
       <Link href="/">
         <Logo />
       </Link>
@@ -42,6 +43,7 @@ function Navbar() {
           )}
         />
       </MenuBurgerButton>
+      <ThemeSwitch />
     </div>
   );
 }

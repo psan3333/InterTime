@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`h-full antialiased`}>
-      <body className="min-h-full flex flex-col">
+      <body className="min-h-full transition-colors flex flex-col bg-background text-foreground">
         <Navbar />
         <LayoutContainer>{children}</LayoutContainer>
       </body>

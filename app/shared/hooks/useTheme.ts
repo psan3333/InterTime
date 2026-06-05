@@ -1,7 +1,7 @@
 import { useUnit } from "effector-react";
-import { $theme, changeTheme } from "@/app/store/themeStore";
+import { $theme, changeTheme } from "@/app/shared/store/themeStore";
 import { useCallback, useEffect } from "react";
-import { Theme } from "@/types";
+import { Theme } from "@/app/shared/types";
 
 export function useTheme() {
   const [theme, onSetTheme] = useUnit([$theme, changeTheme]);

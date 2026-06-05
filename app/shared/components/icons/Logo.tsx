@@ -1,4 +1,4 @@
-import { $theme } from "@/app/store/themeStore";
+import { $theme } from "@/app//shared/store/themeStore";
 import { useUnit } from "effector-react";
 
 function Logo() {

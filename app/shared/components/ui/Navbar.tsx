@@ -2,12 +2,12 @@
 "use client";
 import { useState, useCallback } from "react";
 
-import SideBar from "./Sidebar";
-import MenuBurgerButton from "./input/BurgerButton";
+import SideBar from "@/app/shared/components/ui/Sidebar";
+import MenuBurgerButton from "@/app/shared/components/ui/input/BurgerButton";
 import clsx from "clsx";
 import Link from "next/link";
-import Logo from "../icons/Logo";
-import ThemeSwitch from "./input/ThemeSwitch";
+import Logo from "@/app/shared/components/icons/Logo";
+import ThemeSwitch from "@/app/shared/components/ui/input/ThemeSwitch";
 
 const tabs = [
   {

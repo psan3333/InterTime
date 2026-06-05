@@ -1,4 +1,4 @@
-import SideLink from "./SideLink";
+import SideLink from "@/app/shared/components/ui/Sidebar/SideLink";
 import clsx from "clsx";
 
 interface SideBarProps {

@@ -1,6 +1,6 @@
 import { PointerEventHandler, ReactNode } from "react";
-import MenuBurgerIcon from "../../icons/MenuBurgerIcon";
-import Clickable from "./Clickable";
+import Clickable from "@/app/shared/components/ui/input/Clickable";
+import MenuBurgerIcon from "@/app/shared/components/icons/MenuBurgerIcon";
 
 interface MenuBurgerButtonProps {
   children: ReactNode;

@@ -1,4 +1,4 @@
-import { Theme } from "@/types";
+import { Theme } from "@/app/shared/types";
 import { createStore, createEvent } from "effector";
 
 const $theme = createStore<Theme>("light");

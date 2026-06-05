@@ -1,4 +1,4 @@
-import { useTheme } from "@/app/hooks/useTheme";
+import { useTheme } from "@/app/shared/hooks/useTheme";
 import Clickable from "./Clickable";
 
 function ThemeSwitch() {

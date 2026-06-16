@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import LayoutContainer from "./components/ui/LayoutContainter";
-import Navbar from "./components/ui/Navbar";
+import Navbar from "@/app/shared/components/ui/Navbar";
 
 export const metadata: Metadata = {
   title: "Task Tracker",
@@ -17,7 +16,7 @@ export default function RootLayout({
     <html lang="en" className={`h-full antialiased`}>
       <body className="min-h-full transition-colors flex flex-col bg-background text-foreground">
         <Navbar />
-        <LayoutContainer>{children}</LayoutContainer>
+        {children}
       </body>
     </html>
   );

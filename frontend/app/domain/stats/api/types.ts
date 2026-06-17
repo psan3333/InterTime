@@ -3,10 +3,8 @@
  */
 export type AvgMaxDto = {
   category: string;
-  data: {
-    avg: number;
-    max: number;
-  };
+  avg: number;
+  max: number;
 };
 
 export type CategoriesPieChartDto = {
@@ -14,5 +12,4 @@ export type CategoriesPieChartDto = {
   timePercentage: number; // format: miliseconds / (1000 * 3600)
 };
 
-export type InternetTimeByPeriodBarsDto = {};
-
+// export type InternetTimeByPeriodBarsDto = {};
